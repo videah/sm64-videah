@@ -1,14 +1,17 @@
-# Super Mario 64
+# Videah64
+
+This is a fork of the Super Mario 64 decompilation project to replace Mario with my fursona.
+
+![](screenshot.jpg)
+
+A video of this in motion can be found [here.](https://youtu.be/O-9eCI0ePQM)
+
+Retro 3D Videah Model was adapted from the work of [FurrassicTyler](https://twitter.com/FurrassicTyler) who did a wonderful job bringing my fursona back in time!
+
+Bonus Peach intro voice clip provided by [Ninji](https://twitter.com/_Ninji)
 
 - This repo contains a full decompilation of Super Mario 64 (J), (U), (E), and (SH).
 - Naming and documentation of the source code and data structures are in progress.
-
-It builds the following ROMs:
-
-* sm64.jp.z64 `sha1: 8a20a5c83d6ceb0f0506cfc9fa20d8f438cafe51`
-* sm64.us.z64 `sha1: 9bef1128717f958171a4afac3ed78ee2bb4e86ce`
-* sm64.eu.z64 `sha1: 4ac5721683d0e0b6bbb561b58a71740845dceea9`
-* sm64.sh.z64 `sha1: 3f319ae697533a255a1003d09202379d78d5a2e0`
 
 This repo does not include all assets necessary for compiling the ROMs.
 A prior copy of the game is required to extract the assets.
@@ -182,12 +185,3 @@ Resulting artifacts can be found in the `build` directory.
 	├── text: dialog, level names, act names
 	├── textures: skybox and generic texture data
 	└── tools: build tools
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to
-discuss what you would like to change.
-
-Run `clang-format` on your code to ensure it meets the project's coding standards.
-
-Official Discord: [discord.gg/DuYH3Fh](https://discord.gg/DuYH3Fh)

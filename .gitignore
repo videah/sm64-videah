@@ -70,3 +70,9 @@ build/*
 !/sound/**/*custom*/**/*.aiff
 !/assets/**/*custom*.bin
 !/assets/**/*custom*/**/*.bin
+
+!/sound/samples/sfx_mario_peach/0E_peach_dear_mario.aiff
+
+.DS_Store
+.idea/
+
